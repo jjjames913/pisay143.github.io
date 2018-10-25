@@ -1,0 +1,162 @@
+body{
+background: url("a.jpg") no-repeat fixed;
+background-size: cover;
+ }
+ .container{
+ width : 1500px;
+ height : 1700px;
+ margin : 0 auto;
+ }
+ #headcon{
+ width : 1500px;
+ height : 200px;
+ background :black;
+}
+#headcon1{
+ width : 400px;
+ height : 200px;
+ background :black;
+ background-image: url("b.jpg");
+ background-size: 400px 200px;
+ background-repeat: no-repeat;
+ float: left;
+}
+#headcon2{
+ width : 1100px;
+ height : 200px;
+ background :black;
+ background-image: url("d.jpeg");
+ background-size: 1100px 200px;
+ background-repeat: no-repeat;
+ float: right;
+}
+#a1{
+ width : 1100px;
+ height : 200px;
+ background :black;
+ background-image: url("d.jpeg");
+ background-size: 1100px 200px;
+ background-repeat: no-repeat;
+ float: right;
+}
+#headcon p {
+float:right;
+color:green;
+padding-top:100px;
+font-size:25px;
+}
+ #pisay {
+ width : 1496px;
+ height : 100px;
+ float : right;
+ background: green;
+ border:solid red;
+ }
+ #pisay ul li{
+float:center;
+list-style:none;
+margin-top: 21px;
+display: inline-block;
+}
+#pisay li a{
+color:yellow;
+text-decoration:none;
+padding:10px 100px;
+font-family:"Roboto",sans-serif;
+font-size: 20px;
+}
+
+#pisay li a:hover{
+border: 1px solid white;
+background-color: black;
+}
+#james{
+ width : 1500px;
+ height : 200px;
+ background:white;
+ background-size:cover;
+ background-repeat: no-repeat;
+ font-size:60px;
+ font-family:algerian;
+ color:black;
+}
+#flash {
+height: 600px;
+}
+#flash ul li {
+list-style-type: none;
+}
+#flash ul li a {
+text-decoration: none;
+}
+#flash img {
+ width : 1500px;
+ height : 600px;
+}
+#jhumari {
+ width :1488px;
+ height:400px;
+ border:solid black;
+}
+ #luna{
+ width : 1500px;
+ height : 530px;
+ background-color: black;
+ }
+ #a1{
+ width : 550px;
+ height : 530px;
+ background:yellow;
+ float: left;
+ }
+ #a1 h2{
+text-align:center;
+font-size:30px;
+ }
+ #a1 ul{
+ float:left;
+ padding-top:15px;
+ font-size:30px;
+ }
+ #a2{
+ width : 950px;
+ height : 530px;
+ background:black;
+ float: right;
+ color:white;
+ }
+  #a2 h1{
+	  text-align:center;
+  }
+  #a2 P{
+	  font-size:30px;
+  }
+ #footer {
+	border: 3px solid black;
+	height: 100px;
+	background: url("footer.png") no-repeat;
+	background-size: cover;
+}
+#footer h6 {
+	padding-top: 10px;
+	padding-right: 10px;
+	text-align: right;
+	font-size: 25px;
+}
+#icons {
+	padding-left: 30px;
+}
+#icons li {
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+}
+#icons li img {
+	width: 45px;
+	height: 45px;
+	padding: 10px 5px;
+	transition: 0.5s all;
+}
+#icons li img:hover {
+	transform: rotateZ(50deg);
+}
